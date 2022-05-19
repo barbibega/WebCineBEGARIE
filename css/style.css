@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Square+Peg&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #f1f3f3;
+
+}
+
+.main {
+    background-color: #f1f3f3;
+    display: flex;
+    justify-content: center;
+}
+
+
+header nav {
+    background: #a1d7e8;
+}
+
+.encabezado {
+    background-color: rgb(161, 215, 232);
+
+
+
+}
+
+.navbar {
+    list-style: none;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 8px 15px;
+    display: block;
+    text-decoration: none;
+    float: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    border-radius: 2px;
+
+
+}
+
+.menu ul li:hover {
+    background-color: rgb(197, 212, 217);
+    transition: 0.5s;
+
+}
+
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 6rem;
+    padding: 1rem;
+}
+
+.band {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .band {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .band {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+
+
+.card {
+    background: white;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in;
+}
+
+
+
+.card:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card article {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.card h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+
+}
+
+.card p {
+    line-height: 1.4;
+}
+
+.card span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+}
+
+.card .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card article {
+    padding: 20px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card p {
+    flex: 1;
+    line-height: 1.4;
+}
+
+
+
+
+form {
+    width: 25%;
+    border: 1px;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+label {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+input,
+textarea {
+    margin-bottom: 08px;
+    width: 100%;
+    padding: 05px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: rgb(242, 240, 240);
+    flex-direction: column;
+
+
+}
+
+.contact {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 60px;
+    color: rgb(73, 74, 76);
+}
+
+#fondo {
+    width: 800px;
+    height: 700px;
+    background-image: url(../img/tip2.jpeg);
+    background-repeat: space;
+    background-size: cover;
+    background-position: center;
+    opacity: 85%;
+
+
+}
+
+#fondo label {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(13, 12, 13);
+    font-size: 15px;
+}
+
+
+
+
+.pie-pagina {
+    background-color: #a1d7e8;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
