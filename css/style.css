@@ -57,8 +57,10 @@ nav ul li {
 }
 
 .menu ul li:hover {
-    background-color: rgb(197, 212, 217);
+    background-color: rgb(79, 178, 211);
     transition: 0.5s;
+    border-radius: 1rem;
+    
 
 }
 
