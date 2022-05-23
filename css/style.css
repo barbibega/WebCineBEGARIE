@@ -33,34 +33,15 @@ header nav {
 
 }
 
-.navbar {
-    list-style: none;
-
+.nav-background{
+    background-color: #a1d7e8;
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    padding: 8px 15px;
-    display: block;
-    text-decoration: none;
-    float: left;
-    font-family: sans-serif;
-    font-weight: bold;
-    list-style-type: none;
-    border-radius: 2px;
-
-
-}
-
-.menu ul li:hover {
+.navbar ul li:hover {
     background-color: rgb(79, 178, 211);
     transition: 0.5s;
     border-radius: 1rem;
-    
+
 
 }
 
@@ -175,49 +156,7 @@ h1 {
 
 
 
-form {
-    width: 25%;
-    border: 1px;
-    margin: 20px;
-    padding: 20px;
 
-
-}
-
-label {
-    font-size: 12px;
-    display: block;
-    width: 100%;
-    font-family: sans-serif;
-}
-
-input,
-textarea {
-    margin-bottom: 08px;
-    width: 100%;
-    padding: 05px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-
-}
-
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 60px;
-    background-color: rgb(242, 240, 240);
-    flex-direction: column;
-
-
-}
-
-.contact {
-    font-family: sans-serif;
-    text-align: center;
-    padding: 60px;
-    color: rgb(73, 74, 76);
-}
 
 #fondo {
     width: 800px;
