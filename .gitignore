@@ -1,2 +1,2 @@
-noSubir/
-.gitignore
+/node_modules/ 
+
