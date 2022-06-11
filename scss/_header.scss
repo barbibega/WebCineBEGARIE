@@ -12,17 +12,18 @@ header {
 
         }
 
-        .logoig{
+        .logoig {
             margin: 20px;
             align-items: center;
-            
-            
-            
+
+
+
         }
 
-        .logotw{
-            margin: 20px;
-            align-items: center;
+
+
+        .logotw {
+            @extend .logoig;
         }
 
 
