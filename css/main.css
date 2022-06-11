@@ -8,7 +8,13 @@ header .navbar {
   header .navbar .navbar ul li:hover {
     background-image: linear-gradient(358.7deg, #2a889d 1.7%, #7ac5d6 51.1%, #d3e8f2 95.5%);
     transition: 0.5s;
-    border-radius: 1rem; }
+    border-radius: 2rem; }
+  header .navbar .logoig {
+    margin: 20px;
+    align-items: center; }
+  header .navbar .logotw {
+    margin: 20px;
+    align-items: center; }
 
 main h1 {
   font-family: 'Ubuntu', sans-serif;

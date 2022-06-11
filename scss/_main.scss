@@ -1,4 +1,6 @@
 main {
+    
+
     h1 {
         font-family: 'Ubuntu', sans-serif;
         color: black;
@@ -20,6 +22,7 @@ main {
         grid-template-rows: auto;
         grid-gap: 20px;
 
+        
         .card {
             @include flex (flex, column);
             background: white;
@@ -85,3 +88,4 @@ main {
 
     }
 }
+
