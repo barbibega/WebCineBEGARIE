@@ -10,8 +10,9 @@ header .navbar {
     transition: 0.5s;
     border-radius: 2rem; }
   header .navbar .logoig, header .navbar .logotw {
-    margin: 20px;
-    align-items: center; }
+    margin: auto;
+    align-items: center;
+    padding: 15px; }
 
 main h1 {
   font-family: 'Ubuntu', sans-serif;
