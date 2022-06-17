@@ -12,6 +12,29 @@ header {
 
         }
 
+
+        .container-fluid{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .menu {
+                width: 40%;
+                .navbar-nav {
+                    margin: 0 auto;
+                }
+                .redesHeader {
+                    display: flex;
+                    li{
+                        list-style: none;
+                    }
+                }
+
+            }
+
+        }
+
+
+        /*
         .logoig {
             margin:auto;
             align-items: center;
@@ -26,7 +49,7 @@ header {
         .logotw {
             @extend .logoig;
         }
-
+*/
 
     }
 }
