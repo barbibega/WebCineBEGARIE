@@ -4,23 +4,7 @@
   box-sizing: border-box; }
 
 header .navbar {
-  background-image: linear-gradient(132.6deg, #478bd6 23.3%, #25d8d3 84.7%);
-  /*
-        .logoig {
-            margin:auto;
-            align-items: center;
-            padding: 15px;
-
-
-
-        }
-
-
-
-        .logotw {
-            @extend .logoig;
-        }
-*/ }
+  background-image: linear-gradient(132.6deg, #478bd6 23.3%, #25d8d3 84.7%); }
   header .navbar .navbar ul li:hover {
     background-image: linear-gradient(358.7deg, #2a889d 1.7%, #7ac5d6 51.1%, #d3e8f2 95.5%);
     transition: 0.5s;
@@ -89,6 +73,21 @@ main .band {
       padding-bottom: 60%;
       background-size: cover;
       background-position: center center; }
+    main .band .card .thumb2, main .band .card .thumb3, main .band .card .thumb4, main .band .card .thumb5, main .band .card .thumb6, main .band .card .thumb7 {
+      background-image: url(../img/jolie.jpg);
+      padding-bottom: 60%;
+      background-size: cover;
+      background-position: center center; }
+    main .band .card .thumb3 {
+      background-image: url(../img/laescalera.jpg); }
+    main .band .card .thumb4 {
+      background-image: url(../img/corazon.jpg); }
+    main .band .card .thumb5 {
+      background-image: url(../img/jdah.jpg); }
+    main .band .card .thumb6 {
+      background-image: url(../img/flighta.jpg); }
+    main .band .card .thumb7 {
+      background-image: url(../img/roberto.jpg); }
     main .band .card .article {
       display: flex;
       flex-direction: column;
@@ -100,36 +99,6 @@ main .band {
       main .band .card .article p {
         flex: 1;
         line-height: 1.4; }
-
-.thumb2 {
-  background-image: url(../img/jolie.jpg);
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center; }
-
-.thumb3 {
-  background-image: url(../img/laescalera.jpg);
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center; }
-
-.thumb4 {
-  background-image: url(../img/corazon.jpg);
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center; }
-
-.thumb5 {
-  background-image: url(../img/jdah.jpg);
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center; }
-
-.thumb6 {
-  background-image: url(../img/flighta.jpg);
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center; }
 
 html,
 body {
@@ -162,7 +131,7 @@ body {
       position: relative;
       padding: 25px;
       height: 40%; }
-      .movie_card .info_section .movie_header h1 {
+      .movie_card .info_section .movie_header h2 {
         color: #fff;
         font-weight: 400; }
       .movie_card .info_section .movie_header h4 {
@@ -243,6 +212,43 @@ body {
 .doctor_back {
   background: url("../img/drstrange2.jpg"); }
 
+/*series*/
+#sharp {
+  box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
+  margin-bottom: 200px; }
+  #sharp:hover {
+    box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7); }
+
+.sharp_back {
+  background: url("../img/sharpback.jpg"); }
+
+#archivo {
+  box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
+  margin-bottom: 200px; }
+  #archivo:hover {
+    box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7); }
+
+.archivo_back {
+  background: url("../img/archivoback.jpg"); }
+
+#escalera {
+  box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
+  margin-bottom: 200px; }
+  #escalera:hover {
+    box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7); }
+
+.escalera_back {
+  background: url("../img/laescaleraback.jpg"); }
+
+#stranger {
+  box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
+  margin-bottom: 200px; }
+  #stranger:hover {
+    box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7); }
+
+.stranger_back {
+  background: url("../img/strangerbackjpeg.jpeg"); }
+
 .pie-pagina {
   background-color: #a1d7e8;
   font-size: 1rem;
@@ -260,11 +266,6 @@ body {
     background-size: cover;
     background-position: center;
     opacity: 85%; }
-    .pie-pagina .fondo label {
-      font-family: sans-serif;
-      font-weight: bolder;
-      color: #0d0c0d;
-      font-size: 1rem; }
 
 @media only screen and (min-width: 768px) {
   .main .band {

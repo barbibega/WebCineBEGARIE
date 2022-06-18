@@ -13,7 +13,7 @@ main {
 
     .band {
         width: 90%;
-        // max-width: 1240px;
+
         margin: 0 auto;
 
         display: grid;
@@ -71,6 +71,36 @@ main {
                 background-size: cover;
                 background-position: center center;
             }
+            .thumb2 {
+                background-image: url(../img/jolie.jpg);
+                padding-bottom: 60%;
+                background-size: cover;
+                background-position: center center;
+            }
+            
+            .thumb3 {
+                background-image: url(../img/laescalera.jpg);
+                @extend .thumb2
+            }
+            
+            .thumb4 {
+                background-image: url(../img/corazon.jpg);
+                @extend .thumb2
+            }
+            
+            .thumb5 {
+                background-image: url(../img/jdah.jpg);
+                @extend .thumb2
+            }
+            
+            .thumb6 {
+                background-image: url(../img/flighta.jpg);
+                @extend .thumb2
+            }
+            .thumb7{
+                background-image: url(../img/roberto.jpg);
+                @extend .thumb2
+            }
 
             .article {
                 @include flex (flex, column);
@@ -90,43 +120,6 @@ main {
 
     }
 }
-
-.thumb2 {
-    background-image: url(../img/jolie.jpg);
-    padding-bottom: 60%;
-    background-size: cover;
-    background-position: center center;
-}
-
-.thumb3 {
-    background-image: url(../img/laescalera.jpg);
-    padding-bottom: 60%;
-    background-size: cover;
-    background-position: center center;
-}
-
-.thumb4 {
-    background-image: url(../img/corazon.jpg);
-    padding-bottom: 60%;
-    background-size: cover;
-    background-position: center center;
-}
-
-.thumb5 {
-    background-image: url(../img/jdah.jpg);
-    padding-bottom: 60%;
-    background-size: cover;
-    background-position: center center;
-}
-
-.thumb6 {
-    background-image: url(../img/flighta.jpg);
-    padding-bottom: 60%;
-    background-size: cover;
-    background-position: center center;
-}
-
-
 
 
 
@@ -168,7 +161,7 @@ body {
             padding: 25px;
             height: 40%;
 
-            h1 {
+            h2 {
                 color: #fff;
                 font-weight: 400;
             }
@@ -287,4 +280,64 @@ body {
 
 .doctor_back {
     background: url("../img/drstrange2.jpg");
+}
+
+
+/*series*/
+
+#sharp {
+    box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
+    margin-bottom: 200px;
+
+    &:hover {
+        box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7);
+    }
+    
+    
+}
+
+.sharp_back {
+    background: url("../img/sharpback.jpg");
+}
+
+
+
+#archivo {
+    box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
+    margin-bottom: 200px;
+
+    &:hover {
+        box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7);
+    }
+}
+
+.archivo_back {
+    background: url("../img/archivoback.jpg");
+}
+
+
+#escalera {
+    box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
+    margin-bottom: 200px;
+
+    &:hover {
+        box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7);
+    }
+}
+
+.escalera_back {
+    background: url("../img/laescaleraback.jpg");
+}
+
+#stranger {
+    box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
+    margin-bottom: 200px;
+
+    &:hover {
+        box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7);
+    }
+}
+
+.stranger_back {
+    background: url("../img/strangerbackjpeg.jpeg");
 }
