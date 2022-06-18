@@ -252,55 +252,7 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) {
-    .movie_header {
-        width: 60%;
-    }
-
-    .movie_desc {
-        width: 50%;
-    }
-
-    .info_section {
-        background: linear-gradient(to right, #0d0d0c 50%, transparent 100%);
-    }
-
-    .blur_back {
-        width: 80%;
-        background-position: -100% 10% !important;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .movie_card {
-        width: 95%;
-        margin: 70px auto;
-        min-height: 350px;
-        height: auto;
-    }
-
-    .blur_back {
-        width: 100%;
-        background-position: 50% 50% !important;
-    }
-
-    .movie_header {
-        width: 100%;
-        margin-top: 85px;
-    }
-
-    .movie_desc {
-        width: 100%;
-    }
-
-    .info_section {
-        background: linear-gradient(to top, rgb(20, 20, 19) 50%, transparent 100%);
-        display: inline-grid;
-    }
-}
-
-
-#bright {
+#avatar {
     box-shadow: 0px 0px 150px -45px rgba(255, 51, 0, 0.5);
 
     &:hover {
@@ -308,11 +260,11 @@ body {
     }
 }
 
-.bright_back {
-    background: url("https://occ-0-2433-448.1.nflxso.net/art/cd5c9/3e192edf2027c536e25bb5d3b6ac93ced77cd5c9.jpg");
+.avatar_back {
+    background: url(../img/avatar-2-disney.webp);
 }
 
-#tomb {
+#ciudad {
     box-shadow: 0px 0px 150px -45px rgba(19, 160, 134, 0.6);
 
     &:hover {
@@ -320,11 +272,11 @@ body {
     }
 }
 
-.tomb_back {
-    background: url("https://fsmedia.imgix.net/cd/c9/5e/ba/4817/4d9a/93f0/c776ec32ecbc/lara-crofts-neck-looks-unnatural-in-the-new-poster-for-tomb-raider.png");
+.ciudad_back {
+    background: url("../img/ciudadperdida2.jpg");
 }
 
-#ave {
+#doctor {
     box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
     margin-bottom: 200px;
 
@@ -333,6 +285,6 @@ body {
     }
 }
 
-.ave_back {
-    background: url("https://www.gannett-cdn.com/-mm-/c03fd140debe8ad4c05cf81a5cad7ad61a12ce52/c=0-1580-2985-3266&r=x803&c=1600x800/local/-/media/2017/06/09/USATODAY/USATODAY/636326272873599176-Black-Panther-Teaser.jpg");
+.doctor_back {
+    background: url("../img/drstrange2.jpg");
 }
