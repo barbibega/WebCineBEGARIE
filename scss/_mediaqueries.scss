@@ -6,6 +6,8 @@
 
     }
 
+
+
     header {
         .navbar {
             .container-fluid {
@@ -47,6 +49,7 @@
 
 @media only screen and (min-width: 1024px) {
     main {
+
         .band {
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-areas: "uno uno dos tres"
@@ -80,6 +83,11 @@
             .item-7 {
                 grid-area: siete;
             }
+
+
+
+
+
         }
 
     }
@@ -88,6 +96,7 @@
 
 
 }
+
 @media screen and (max-width: 768px) {
     .movie_card {
         width: 95%;

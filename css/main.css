@@ -8,7 +8,8 @@ header .navbar {
   header .navbar .navbar ul li:hover {
     background-image: linear-gradient(358.7deg, #2a889d 1.7%, #7ac5d6 51.1%, #d3e8f2 95.5%);
     transition: 0.5s;
-    border-radius: 2rem; }
+    border-radius: 2rem;
+    border: #25d8d3; }
   header .navbar .container-fluid {
     display: flex;
     justify-content: space-between;
@@ -68,16 +69,18 @@ main .band {
         text-transform: uppercase;
         letter-spacing: .05em;
         margin: 2em 0 0 0; }
-    main .band .card .thumb {
+    main .band .card .thumb, main .band .card .thumb3, main .band .card .thumb4, main .band .card .thumb5, main .band .card .thumb6, main .band .card .thumb7, main .band .card .thumb8, main .band .card .thumb9, main .band .card .thumb10, main .band .card .thumb11, main .band .card .thumb12, main .band .card .thumb13, main .band .card .thumb14 {
       background-image: url(../img/willrock.webp);
       padding-bottom: 60%;
       background-size: cover;
-      background-position: center center; }
-    main .band .card .thumb2, main .band .card .thumb3, main .band .card .thumb4, main .band .card .thumb5, main .band .card .thumb6, main .band .card .thumb7 {
+      background-position: center center;
+      height: auto; }
+    main .band .card .thumb2 {
       background-image: url(../img/jolie.jpg);
       padding-bottom: 60%;
       background-size: cover;
-      background-position: center center; }
+      background-position: center center;
+      height: auto; }
     main .band .card .thumb3 {
       background-image: url(../img/laescalera.jpg); }
     main .band .card .thumb4 {
@@ -88,6 +91,20 @@ main .band {
       background-image: url(../img/flighta.jpg); }
     main .band .card .thumb7 {
       background-image: url(../img/roberto.jpg); }
+    main .band .card .thumb8 {
+      background-image: url(../img/johnny-depp-amber-heard-t.jpg); }
+    main .band .card .thumb9 {
+      background-image: url(../img/jolie.jpg); }
+    main .band .card .thumb10 {
+      background-image: url(../img/noticlose.jpg); }
+    main .band .card .thumb11 {
+      background-image: url(../img/noticruise.jpg); }
+    main .band .card .thumb12 {
+      background-image: url(../img/notidoctor.webp); }
+    main .band .card .thumb13 {
+      background-image: url(../img/notiactores.webp); }
+    main .band .card .thumb14 {
+      background-image: url(../img/notiheroes1.jpg); }
     main .band .card .article {
       display: flex;
       flex-direction: column;

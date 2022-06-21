@@ -11,6 +11,8 @@ main {
         padding: $medida-principal;
     }
 
+
+
     .band {
         width: 90%;
 
@@ -70,37 +72,78 @@ main {
                 padding-bottom: 60%;
                 background-size: cover;
                 background-position: center center;
+                height: auto;
             }
+
             .thumb2 {
                 background-image: url(../img/jolie.jpg);
                 padding-bottom: 60%;
                 background-size: cover;
                 background-position: center center;
+                height: auto;
             }
-            
+
             .thumb3 {
                 background-image: url(../img/laescalera.jpg);
-                @extend .thumb2
+                @extend .thumb
             }
-            
+
             .thumb4 {
                 background-image: url(../img/corazon.jpg);
-                @extend .thumb2
+                @extend .thumb
             }
-            
+
             .thumb5 {
                 background-image: url(../img/jdah.jpg);
-                @extend .thumb2
+                @extend .thumb
             }
-            
+
             .thumb6 {
                 background-image: url(../img/flighta.jpg);
-                @extend .thumb2
+                @extend .thumb
             }
-            .thumb7{
+
+            .thumb7 {
                 background-image: url(../img/roberto.jpg);
-                @extend .thumb2
+                @extend .thumb
             }
+
+            .thumb8 {
+                background-image: url(../img/johnny-depp-amber-heard-t.jpg);
+                @extend .thumb
+            }
+
+            .thumb9 {
+                background-image: url(../img/jolie.jpg);
+                @extend .thumb
+            }
+
+            .thumb10 {
+                background-image: url(../img/noticlose.jpg);
+                @extend .thumb
+            }
+
+            .thumb11 {
+                background-image: url(../img/noticruise.jpg);
+                @extend .thumb
+            }
+
+            .thumb12 {
+                background-image: url(../img/notidoctor.webp);
+                @extend .thumb
+            }
+
+            .thumb13 {
+                background-image: url(../img/notiactores.webp);
+                @extend .thumb
+            }
+
+            .thumb14 {
+                background-image: url(../img/notiheroes1.jpg);
+                @extend .thumb
+            }
+
+
 
             .article {
                 @include flex (flex, column);
@@ -292,8 +335,8 @@ body {
     &:hover {
         box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7);
     }
-    
-    
+
+
 }
 
 .sharp_back {
