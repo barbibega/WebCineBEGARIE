@@ -70,7 +70,7 @@ main .band {
         letter-spacing: .05em;
         margin: 2em 0 0 0; }
     main .band .card .thumb, main .band .card .thumb3, main .band .card .thumb4, main .band .card .thumb5, main .band .card .thumb6, main .band .card .thumb7, main .band .card .thumb8, main .band .card .thumb9, main .band .card .thumb10, main .band .card .thumb11, main .band .card .thumb12, main .band .card .thumb13, main .band .card .thumb14 {
-      background-image: url(../img/willrock.webp);
+      background-image: url(../img/smith.jpg);
       padding-bottom: 60%;
       background-size: cover;
       background-position: center center;
@@ -307,7 +307,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "uno uno dos tres" "uno uno cuatro cinco" "uno uno seis siete"; }
     main .band .item-1 {
-      grid-area: uno; }
+      grid-area: uno;
+      height: 7rem; }
     main .band .item-2 {
       grid-area: dos; }
     main .band .item-3 {
