@@ -7,6 +7,11 @@
     margin-top: $medida-secundaria;
     padding: $medida-principal;
     box-sizing: border-box;
+    
+    .logofooter{
+        width: 25px;
+
+    }
 
     .fondo {
         width: 800px;
@@ -18,5 +23,9 @@
         opacity: 85%;
 
 
+
+
     }
+
+
 }

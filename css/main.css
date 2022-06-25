@@ -23,6 +23,9 @@ header .navbar {
         header .navbar .container-fluid .menu .redesHeader li {
           list-style: none; }
 
+header .logh {
+  width: 140px; }
+
 main h1 {
   font-family: 'Ubuntu', sans-serif;
   color: black;
@@ -204,6 +207,7 @@ body {
     background-size: cover;
     border-radius: 11px; }
 
+/*cine*/
 #avatar {
   box-shadow: 0px 0px 150px -45px rgba(255, 51, 0, 0.5); }
   #avatar:hover {
@@ -275,6 +279,8 @@ body {
   margin-top: 2rem;
   padding: 1rem;
   box-sizing: border-box; }
+  .pie-pagina .logofooter {
+    width: 25px; }
   .pie-pagina .fondo {
     width: 800px;
     height: 700px;
@@ -339,6 +345,14 @@ body {
   .info_section {
     background: linear-gradient(to top, #141413 50%, transparent 100%);
     display: inline-grid; } }
+
+body {
+  background: #d9e0e2;
+  background: linear-gradient(90deg, #d9e0e2 5%, #e3e3c7 100%, #3128c6 100%); }
+
+.bg {
+  background-image: url(../img/tip1.jpeg);
+  background-position: center center; }
 
 body {
   background-color: #f1f3f3; }
