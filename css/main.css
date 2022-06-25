@@ -10,6 +10,10 @@ header .navbar {
     transition: 0.5s;
     border-radius: 2rem;
     border: #25d8d3; }
+  header .navbar .ig {
+    width: 25px; }
+  header .navbar .tw {
+    width: 25px; }
   header .navbar .container-fluid {
     display: flex;
     justify-content: space-between;
@@ -119,6 +123,9 @@ main .band {
       main .band .card .article p {
         flex: 1;
         line-height: 1.4; }
+
+.logci {
+  width: 48px; }
 
 html,
 body {
