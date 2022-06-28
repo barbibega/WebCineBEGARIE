@@ -22,8 +22,8 @@
         <nav class="navbar navbar-expand-lg nav-background">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><a href="../index.html">
-                        <img class="logh" src="../img/header-removebg-preview.png" alt="imagen del logo de pagina web"
-                        ></a>
+                        <img class="logh" src="../img/header-removebg-preview.png"
+                            alt="imagen del logo de pagina web"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -50,12 +50,12 @@
                                 <li>
                                     <a class="logoig" href="https://www.instagram.com/cinemandseriesvip/"
                                         target="_blank">
-                                        <img class="ig" src="../img/logopng.png" alt="icono de instagram" >
+                                        <img class="ig" src="../img/logopng.png" alt="icono de instagram">
                                     </a>
                                 </li>
                                 <li>
                                     <a class="logotw" href="" target="_blank">
-                                        <img class="tw" src="../img/twitterpng.png" alt="icono de twitter" >
+                                        <img class="tw" src="../img/twitterpng.png" alt="icono de twitter">
                                     </a>
                                 </li>
                             </div>
@@ -67,6 +67,7 @@
 
 
     <main>
+
         <div class="container w-75 bg-white mt-5 rounded shadow">
             <div class="row align-items-sm-stretch">
                 <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
@@ -74,13 +75,17 @@
                 </div>
                 <div class="col bg-white p-5 rounded-end">
                     <div class="text-end">
-                        <img class="logci" src="../img/logocine.jpeg"  alt="imagen cine formulario">
+                        <img class="logci" src="../img/logocine.jpeg" alt="imagen cine formulario">
                     </div>
                     <h2 class="fw-bold text-center py-2">Suscribite</h2>
                     <form action="#">
                         <div class="mb-3">
                             <label for="email" class="form-label">Correo Electronico</label>
-                            <input type="email" class="form-control" name="email">
+                            <input type="text" class="form-control" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contraseña" class="form-label">Contraseña</label>
+                            <input type="text" class="form-control" placeholder="contraseña">
                         </div>
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre y Apellido</label>
@@ -98,12 +103,22 @@
                             <label for="plataforma" class="form-label">Plataforma Streaming Preferida</label>
                             <input type="text" class="form-control" placeholder="plataforma">
                         </div>
+
                         <div class="mb-4">
                             <label for="Pais">Selecciona tú país</label>
                             <select name="Pais" id="">
                                 <option value="Argentina">Argentina</option>
                                 <option value="Chile">Chile</option>
                                 <option value="Chile">Uruguay</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label for="Pais">Rango edad</label>
+                            <select name="Pais" id="">
+                                <option value="18-30">18-30</option>
+                                <option value="30-45">30-45</option>
+                                <option value="45-65">45-65</option>
+                                <option value="+65">+65</option>
                             </select>
                         </div>
                         <div class="d-grid">
@@ -113,6 +128,8 @@
                 </div>
             </div>
         </div>
+
+
 
     </main>
 
