@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +7,10 @@
 
 @import "utilities/variables";
 @import "utilities/mixin";
-
 @import "header";
-
 @import "main";
-@import "mediaqueries";
 @import "footer";
-
+@import "mediaqueries";
 @import "contacto";
 
 
@@ -24,4 +20,3 @@ body {
     background-color: $color-principal;
 
 }
-

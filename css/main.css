@@ -277,6 +277,26 @@ body {
 .stranger_back {
   background: url("../img/strangerbackjpeg.jpeg"); }
 
+.pie-pagina {
+  background-color: #a1d7e8;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  box-sizing: border-box; }
+  .pie-pagina .logofooter {
+    width: 25px; }
+  .pie-pagina .fondo {
+    width: 800px;
+    height: 700px;
+    background-image: url(../img/tip2.jpeg);
+    background-repeat: space;
+    background-size: cover;
+    background-position: center;
+    opacity: 85%; }
+
 @media only screen and (min-width: 768px) {
   .main .band {
     grid-template-columns: 1fr 1fr; }
@@ -332,26 +352,6 @@ body {
   .info_section {
     background: linear-gradient(to top, #141413 50%, transparent 100%);
     display: inline-grid; } }
-
-.pie-pagina {
-  background-color: #a1d7e8;
-  font-size: 1rem;
-  font-weight: bolder;
-  font-family: sans-serif;
-  text-align: center;
-  margin-top: 2rem;
-  padding: 1rem;
-  box-sizing: border-box; }
-  .pie-pagina .logofooter {
-    width: 25px; }
-  .pie-pagina .fondo {
-    width: 800px;
-    height: 700px;
-    background-image: url(../img/tip2.jpeg);
-    background-repeat: space;
-    background-size: cover;
-    background-position: center;
-    opacity: 85%; }
 
 body {
   background: #d9e0e2;
